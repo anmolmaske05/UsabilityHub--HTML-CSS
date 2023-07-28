@@ -1,0 +1,42 @@
+@media screen and (max-width: 991px) {
+  
+    h3 {
+        font-size: 1.1rem;
+      }
+    
+      .nav-toggle{
+    display: block;
+    margin-right: 20px;
+  }
+  .nav-links{
+    display: none;
+  }
+  .examples-area{
+    gap:4px 4px ;
+  }
+  .examples-card{
+    width: calc(50% - 10px);
+    height: 180px;
+  }
+  .cta-section {
+    margin-top: 20px;
+    background-color: #1d69a3;
+    padding-block: 80px var(--padding-inline-section) 80px;
+  }
+}
+@media screen and (max-width: 767px ) {
+
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .headear-left{
+        text-align: center;
+    }
+    .primary-btn{
+        width: 100%;
+    }
+    
+}
+.features-card{
+    min-width: calc(50%-10px);
+}
